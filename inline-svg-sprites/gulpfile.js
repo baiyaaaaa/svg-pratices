@@ -8,7 +8,7 @@ gulp.task('webserver', function(){
 })
 
 gulp.task('sprite', function(){
-  return gulp.src('assets/svg/*.svg')
+  return gulp.src('src/svg/*.svg')
   .pipe(svgSymbols())
   .pipe(gulp.dest('assets'));
 });

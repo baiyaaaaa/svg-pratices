@@ -19,5 +19,20 @@
   <svg class="icon icon-black">
     <use xlink:href="/assets/svg-symbols.svg#office"></use>
   </svg>
+  <object type="image/svg+xml" class="icon icon-red" data="/assets/svg-symbols.svg#office"></object>
 </body>
+<script type="text/javascript">
+/MSIE|Trident/.test(navigator.userAgent) && document.addEventListener('DOMContentLoaded', function () {
+  [].forEach.call(document.querySelectorAll('svg'), function (svg) {
+    var use = svg.querySelector('use'); 
+
+    if (use) {
+      var object = document.createElement('object');
+      object.data = use.getAttribute('xlink:href');
+      object.className = svg.getAttribute('class');
+      svg.parentNode.replaceChild(object, svg);
+    }
+  });
+});
+</script>
 </html>

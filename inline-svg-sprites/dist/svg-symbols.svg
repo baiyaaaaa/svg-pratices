@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="home" viewBox="0 0 32 32">
+      <title>home icon</title>
+      <path d="M16 2L0 18l3 3 3-3 2 12h6v-6h4v6h6l2-12 3 3 3-3L16 2zm0 12.828c-1.562 0-2.83-1.266-2.83-2.828S14.438 9.172 16 9.172c1.562 0 2.828 1.266 2.828 2.828S17.562 14.828 16 14.828z"/>
+    </symbol>
+    <symbol id="newspaper" viewBox="0 0 32 32">
+      <title>newspaper icon</title>
+      <path d="M28 8V4H0v22c0 1.105.895 2 2 2h27c1.657 0 3-1.343 3-3V8h-4zm-2 18H2V6h24v20zM4 10h20v2H4zm12 4h8v2h-8zm0 4h8v2h-8zm0 4h6v2h-6zM4 14h10v10H4z"/>
+    </symbol>
+    <symbol id="office" viewBox="0 0 32 32">
+      <title>office icon</title>
+      <path d="M0 32h16V0H0v32zM10 4h4v4h-4V4zm0 8h4v4h-4v-4zm0 8h4v4h-4v-4zM2 4h4v4H2V4zm0 8h4v4H2v-4zm0 8h4v4H2v-4zm16-10h14v2H18zm0 22h4v-8h6v8h4V14H18z"/>
+    </symbol></svg>
